@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.banner-sect{
+    background-color: beige;
+    width: 100%;
+    height: 130px; 
+    padding: 10px;
+}
+.banner-img{
+    justify-content: center;
+}
+.banner-add{
+text-align: center;
+font-size: 18px;
+font-style: normal;
+}
+.hedear-sect{
+    display: flex;
+    background-image: url(/images/Group\ 14.png);
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.btn-1{
+    border-radius: 48px; 
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-2{
+    border-radius: 48px; 
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: #4EC5F7; 
+}
+.hedear-down{
+ padding: 100px;
+ text-align:left;
+ 
+}
+h2{
+    color: brown;
+    font-size: 40px;
+    
+}
+.png{
+width: 625px;
+height: 300px; 
+}
+.main-img{
+    width: 500px;
+    height: 420px;
+    padding-left: 280px;
+}
+.main-contai{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    margin: 5px;
+    background: white;
+}
+.titles{
+    grid-row: auto;
+    display: center;
+    padding: 110px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+}
+.color-2{
+    padding: 10px;
+    color: #F948B2;
+}
+.btn-3{
+border-radius: 48px; 
+padding: 10px 20px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+; 
+} 
+.prag{
+    padding: 10px;
+}   
+
+.deep-section{
+    text-align: center;
+}    
+.deep-img{
+    display: flex;
+    align-items: center;
+width: 100%;
+background: white;
+gap: 10px 10px 10px 10px;
+border-radius: 2px solid white; 
+
+
+} 
+.picture{
+    height: 300px;
+   border: 20px solid white;
+ padding-right: 10px;
+  
+}
+
+.image-play{
+    height: 400px;
+    
+}
+.image-play2{
+    height: 190px;
+    width: 200px;
+}
+.play-container{
+    display: flex;
+    justify-content: center;
+    background: white;
+    height: 430px;
+    width: 100%;
+    padding: 40px;
+}
+.item{
+    padding: 200px;
+
+}
+.section-a{
+    display: inline-flex;
+    background: white;
+    height:200px ;
+    margin: 10px;
+    width: 100%;
+}
+.fotter{
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: 300px;
+    width: 100%;
+    color: white;
+    padding: 100px;
+    
+}
+.sick{
+    align-items: center;
+}
+.line{
+display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px; 
+}
+.bair{
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px; 
+}
+
