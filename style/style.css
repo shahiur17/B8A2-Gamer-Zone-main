@@ -36,7 +36,7 @@
         margin-left: 40px;
     }
     .nivison-tag .navispn-btn{
-        width: 130px;
+        width: 160px;
         height: 40px;
         background: rgb(239, 237, 235);
         border: 2px solid rgb(158, 103, 103);
@@ -47,7 +47,7 @@
         margin-left: 40px;
     }
     header{
-        max-width: 1920px;
+        max-width: 100%;
         margin: 0 auto;
     }
 .hedear-sect{
@@ -55,9 +55,10 @@
     background-image: url(/images/Group\ 14.png);
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
-    height: 300px;
+    height: 450px;
     width: 100%;
     text-align: center;
+    margin-top: 120px ;
 }
 .btn-1{
     border-radius: 48px; 
@@ -84,18 +85,19 @@ h2{
 .png{
 width: 625px;
 height: 300px; 
+
 }
 .main-img{
-    width: 500px;
+    width: 450px;
     height: 420px;
     padding-left: 280px;
 }
 .main-contai{
     display: flex;
-    height: 450px;
+    height: 600px;
     width: 100%;
     margin: 5px;
-    background: white;
+    background: rgb(253, 252, 252);
 }
 .titles{
     grid-row: auto;
@@ -120,9 +122,9 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 10px;
 }   
 
-.deep-section{
-    text-align: center;
-}    
+justify-content: center;
+}  
+
 .deep-img{
     display: flex;
     align-items: center;
@@ -130,7 +132,11 @@ width: 100%;
 background: white;
 gap: 10px 10px 10px 10px;
 border-radius: 2px solid white; 
+}
+.game-section{
 
+    text-align: center;
+  
 
 } 
 .picture{
@@ -147,10 +153,8 @@ border-radius: 2px solid white;
 .image-play2{
 height: 200;
 width: 150px;
-margin: 0;
-position: relative;
 bottom: 8px;
-padding-top: 10px;
+padding-right: 100px;
 
 }
 
@@ -179,29 +183,82 @@ padding-top: 10px;
     justify-content: space-around;
 
 }
-.fotter{
-    display: flex;
-    justify-content: center;
-    background: black;
-    height: 300px;
+.Group-section{
+    background-image: url(../images/Group\ 65.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 700px 430px;
     width: 100%;
-    color: white;
-    padding: 100px;
+    height: 200px;
+     padding: 120px 0 120px;
+   background-color: #F948B2;
+   
+}
+.position{
+    text-align: center;
+    text-align: left;
+    padding:  0 90px;
     
 }
-.sick{
-    align-items: center;
+#text-secs{
+    font-size: 15px;
+    padding: 10px 0 10px;
 }
-.line{
-display: inline-flex;
-padding: 10px;
-align-items: flex-start;
-gap: 60px; 
+.btn{
+    color: white;
+    background-color: rgb(189, 189, 73);
+    padding: 10px 20px;
+    border-radius: 48px;
+    gap: 10px
+    
 }
-.bair{
-    display: inline-flex;
-padding: 10px;
-align-items: flex-start;
-gap: 60px; 
+.devl-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background: #f0f5f7;
+    padding-top: 50px;
+}
+.beep{
+    justify-content: center;
+width: 281px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+gap: 20px;
 }
 
+.foot-section{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background: black;
+    color: white;
+    
+}
+#game-pp{
+font-size: 50px;
+padding-bottom: 15px 0 15px;
+}
+.bcc{
+ display: inline-flex;
+ gap: 20px;
+padding:10px 0 10px
+    
+}
+.fb-icon{
+    padding: 10px 0 10px;
+    border: 2px solid none;
+    gap: 20px;
+}
+.ba-last{
+    display: inline-flex;
+    gap: 12px;
+    padding: 10px 0 10px;
+}
+.discos{
+    pad: 10px 0 20px;
+}
